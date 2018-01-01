@@ -3,14 +3,15 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+
 
 * Rails 5.1.4
 
 * enable cache
   <br>
   rails dev:cache
-
+  <br>
+  default cache is set to 5 seconds
 * go to localhost:3000/singup create a new account first. "name email password password_confirmation" are needed 
   <br>
   Example: curl --data "name=xxx&email=xxx@email.com&password=xxx&password_confirmation=xxx" "http://localhost:3000/signup"
@@ -21,3 +22,7 @@ Things you may want to cover:
    <br>
   Example: curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE1MTQ4NTk2NjB9.UtqXIXobHzIMNOwi7MsUCbA-cecrifSyL6fkUq2IP-0" -X GET "http://localhost:3000/nearest_gas?lat=37.77801&lng=-122.4119076"
 
+Concerns
+* what is reasonable cache time
+
+* concurrency
