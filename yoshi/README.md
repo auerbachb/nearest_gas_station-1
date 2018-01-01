@@ -8,6 +8,7 @@ Things you may want to cover:
 * Rails 5.1.4
 
 * enable cache
+  <br>
   rails dev:cache
 
 * go to localhost:3000/singup create a new account first. "name email password password_confirmation" are needed 
